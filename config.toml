@@ -1,0 +1,66 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://www.example.com/"
+languageCode = "en-AU"
+title = "SW Ontario Heritage Council"
+
+# Metadata
+[params]
+  author = "Candace Nast, SWOHC Technology User Group Chair"
+  description = "simple web presence for workers (paid and volunteer) in galleries, libraries, archives, and museums in southwestern Ontario, Canada"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "SWOHC: South West Ontario Heritage Council"
+  description = "A professional development community for workers in Canadian galleries, libraries, archives, and museums"
+
+# Navigation section
+[params.nav]
+  mission = "Our Mission"
+  services = "About Us"
+  team = "Our Members"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# About Us section
+[params.services]
+  enable = true
+  title = "About Us"
+  description = "SWOHC was founded in 19xx to provide xyz."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Face-to-face meetings"
+    description = "SWOHC meetings take place once per quarter with member organizations taking turns hosting meetups. Meetings start at 9:30 a.m and are usually held in January, April, July, and October."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Networking"
+    description = "Get to know your colleagues and what's happening at other heritage sites around South West Ontario. Each attendee is invited to share an update and announce upcoming events."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Learning"
+    description = "SWOHC is a great place to seek out and find heritage-related professional development. Each meeting includes a skill-building activity. Past events include educational tours, information sessions, and technology workshops."
+
+# Team section
+[params.team]
+  enable = true
+  title = "Our Members"
+  description = "Our members* are located in southwestern Ontario,<br/> across Windsor, Essex, Kent, and Lambton Counties<br/><br/>Algonquin Club<br/>Amherstburg Freedom Museum<br/>Amherstburg Tourism & Special Events Office<br/>Les Amis Duff-Baby<br/>Buxton National Historic Site and Museum<br/>Canadian Club Brand Center<br/>Canadian Historical Aircraft Association<br/>Canadian Transportation Museum & Heritage Village<br/>Chatham Museum and Ridge House Museum<br/>Comber & District Historical Society Museum<br/>Erie Quest Marine Heritage<br/>Essex and Community Historical Research Society<br/>Essex Armoured Soldiers Museum<br/>Essex County Black Historical Research Society<br/>Essex County Historical Cemeteries Preservation Society<br/>Essex County Historical Society<br/>Essex County Public Library<br/>Essex County Steam & Gas Engine Museum Inc<br/>Essex-Kent Mennonite Historical Association<br/>Essex Medieval Heritage Society<br/>Essex Municipal Heritage Committee<br/>Fort Malden National Historic Site<br/>Friends of Bellevue<br/>Friends of Willistead<br/>Gibson Gallery<br/>Harrow Early Immigrant Research Society (HEIRS)<br/>Heritage Essex/Essex Railway Station<br/>Jack Miner Migratory Bird Foundation<br/>John Freeman Walls Historic Site & Underground Railroad Museum<br/>John R. Park Homestead C.A.<br/>Kingsville Archives<br/>Kingsville/Gosfield Heritage Society<br/>Kingsville Historical Park and Museum<br/>Lakeshore Black Heritage Committee<br/>Leamington Arts Centre<br/>Leamington & Mersea Historical Society<br/>Leamington Culture and Recreation<br/>Maidstone and Area Historical Society<br/>Maidstone Bicentennial Museum<br/>Mackenzie Hall Friends of the Court<br/>Marsh Collection Society<br/>Ministry of Tourism, Culture and Sport<br/>Museum Windsor<br/>Northstar Cultural Community Centre<br/>Olde Sandwich South and Area Historical Society<br/>Ontario Genealogy Society- Essex County Branch<br/>Park House<br/>Pelee Island Heritage Centre<br/>La Pionnière du sud-ouest Réseau du patrimoine franco-ontarien<br/>Provincial Marine Amherstburg Re-enactment<br/>The Ontario Questers<br/>Sandwich First Baptist Church<br/>Save Ontario Shipwrecks Windsor<br/>Serbian Heritage Museum<br/>Southern Ontario Locomotive Restoration Society<br/>Southern Ontario Military Muster<br/>Tecumseh Area Historical Society & Heritage Centre<br/>United Empire Loyalists Bicentennial Branch<br/>Willistead Manor<br/>Windsor Chapter Ontario Archaeological Society<br/>Windsor’s Community Archives<br/>Windsor Municipal Heritage Committee<br/>Windsor Historic Sites Association<br/>Windsor Historical Society<br/>Windsor Wood Carving Museum<br/>Windsor, City Cultural Affairs Department<br/>Tourism Windsor Essex Pelee Island<br/><br/>*List complete at the time of publishing"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Join the SWOHC listserv by visiting [groups.google.com/d/forum/swohc](http://groups.google.com/d/forum/swohc)<br/><br/>Send a message below for details about the next meeting date and location"
+  
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by FreeHTML5.co Demo Images: Pexels<br/>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+ 
+  
