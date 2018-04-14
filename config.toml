@@ -28,7 +28,7 @@ title = "SW Ontario Heritage Council"
 [params.services]
   enable = true
   title = "About Us"
-  description = "SWOHC was founded in 19xx to provide xyz."
+  description = "SWOHC supports networking between heritage professionals in South West Ontario"
 
   [[params.services.item]]
     icon = "icon-eye"
@@ -55,7 +55,7 @@ title = "SW Ontario Heritage Council"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Join the SWOHC listserv by visiting [groups.google.com/d/forum/swohc](http://groups.google.com/d/forum/swohc)<br/><br/>Send a message below for details about the next meeting date and location"
+  message = "Send a message to hello.swohc@gmail.com for details about the next meeting date and location"
   
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
